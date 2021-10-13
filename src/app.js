@@ -1,6 +1,6 @@
 const request = require('request')
-const url ='https://newsapi.org/v2/everything?q=apple&from=2021-10-10&to=2021-10-10&sortBy=popularity&apiKey=0c6dc0edc82549fb893cb78ee8ba4297'
-const url1 ='https://newsapi.org/v2/everything?q=tesla&from=2021-09-11&sortBy=publishedAt&apiKey=0c6dc0edc82549fb893cb78ee8ba4297'
+const url ='https://newsapi.org/v2/everything?domains=wsj.com&apiKey=0c6dc0edc82549fb893cb78ee8ba4297'
+
 
 
 const express = require('express')

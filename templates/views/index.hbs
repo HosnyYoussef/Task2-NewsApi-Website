@@ -17,13 +17,13 @@
   <div class="container-fluid">
     <div class="row">
       {{#each data}}
-      <div class="col-md-3">
-        <div class="card" style="width: 20rem; height:40rem ; margin: 30px;border-radius:6px ;border:2px solid crimson">
+      <div class="col-md-6 col-sm-12 col-lg-3">
+        <div class="card" style="width: 20rem; height:37rem ; margin: 30px;border-radius:6px ;border:2px solid crimson">
           <img src={{urlToImage}} class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title" style="width: 18rem;height:7rem ;margin-bottom: auto;color: crimson;">{{title}}</h5>
             <p class="card-text" style="margin-top: 35px;">{{description}}</p>
-            <a class="btn btn-primary">{{publishedAt}}</a>
+            <a class="txt bg-primary text-light">{{publishedAt}}</a>
           </div>
         </div>
       </div>
